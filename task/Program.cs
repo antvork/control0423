@@ -5,8 +5,7 @@
 
 string[] myArray = { "apple", "oil", "a1", "table", "fruit", "l2", "2344" };
 string[] myNewArray = { };
-int j = 0;
-for (int i = 0; i < myArray.Length; i++)
+for (int i = 0, j = 0; i < myArray.Length; i++)
 {
     if (myArray[i].Length <= 3)
     {
